@@ -1,0 +1,70 @@
+/* Light Mode */
+.table-light {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.table-light td,
+.table-light th {
+  padding: 5px;
+}
+
+.table-light tr {
+  transition: all 0.3s ease-in;
+}
+
+.table-light tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-light tr:hover {
+  background-color: #ddd;
+}
+
+.table-light td {
+  font-size: 0.8rem;
+}
+
+.table-light th {
+  text-align: start;
+  background-color: #c0e3fc;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Dark Mode */
+.table-dark {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.table-dark td,
+.table-dark th {
+  padding: 5px;
+}
+
+.table-dark tr {
+  transition: all 0.3s ease-in;
+}
+
+.table-dark tr:nth-child(even) {
+  background-color: #3a3a3a;
+}
+
+.table-dark tr:hover {
+  background-color: #555;
+}
+
+.table-dark td {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.table-dark th {
+  text-align: start;
+  background-color: #c0e3fc;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
